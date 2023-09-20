@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - is Printf function
- * @format: format
- * Return: Printed chars
+ * _printf - the printf function
+ * @format: format.
+ * Return: chars.
  */
 int _printf(const char *format, ...)
 {
@@ -53,9 +54,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - will Print the content of a buffer 
- * @buffer: Array of chars
- * @buff_ind: Index which will add next char
+ * print_buffer - Print the content of a buffer
+ * @buffer: chars
+ * @buff_ind: represents the length.
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
@@ -64,3 +65,4 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
+
